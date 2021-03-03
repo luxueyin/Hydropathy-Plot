@@ -47,6 +47,7 @@ Goal: Produce a line plot that illustrates the hydrophobicity properties of a pr
 * This plot allows the determination of number of TMS and their general location within the amino acid sequence for a given protein.
 * Researchers could use this information to determine % similairty between two proteins through comparing their amino acids sequences, or to determine if two proteins share the same domain through comparing the amino acid sequences at a specific region (e.g. N-terminus).
 
+## Functions Template used for producing a hydropathy plot
 ```
 # CODE
 
@@ -165,9 +166,9 @@ def fn_for_loaa(loaa: List[AminoAcid]) -> ...:
     return acc
 ```
 
-###########
-# Functions
 
+# Code for producing a hydropathy plot
+```
 # Main function
 @typecheck
 def main(filename: str, protein: str) -> None:
@@ -604,13 +605,13 @@ expect(get_thresh(0), [])
 expect(get_thresh(12), [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
 
 summary()
-
+```
 
 ## Creating Hydropathy Plots
 To create a hydropathy plot for any protein in the csv file
-Use the following command
+Use the following command.
 
 ```
 main('aquaporin.csv', '2B6O')
 ```
-replace aquaporin with the name of your csv and replace 2B60 with the protein ID of the desired protein.
+Remember to replace aquaporin with the name of your csv and replace 2B60 with the protein ID of the desired protein.
