@@ -30,11 +30,11 @@ Goal: Produce a line plot that illustrates the hydrophobicity properties of a pr
 * Generated a list[int] for the amino acid number along the sequence for a given protein.
 * Generated a list[int] for averages of every 10 amino acid residues in a "moving window" manner, where the amino acid sequences was converted from a (1) str to a (2) list of AminoAcid in enumeration to a (3) list of hydropathy indices and finally (4) a list of hydropathy score (average of 10 hydropathy indices).
 
-#### What my program produced...
-![Screen%20Shot%202019-03-28%20at%208.27.00%20PM.jpg](attachment:Screen%20Shot%202019-03-28%20at%208.27.00%20PM.jpg)
+#### What my program produced for 3NE2...
+https://user-images.githubusercontent.com/74755460/109886716-62585880-7c35-11eb-90fb-4c64ce13f242.png
 
 #### What ExPASy (Bioinformatics Resources Portal) produced for 3NE2...
-![Screen%20Shot%202019-03-28%20at%208.28.05%20PM.jpg](attachment:Screen%20Shot%202019-03-28%20at%208.28.05%20PM.jpg)
+https://user-images.githubusercontent.com/74755460/109886539-0ee60a80-7c35-11eb-97c8-edf552cc89c2.png
 
 
 ## Most Challenging
