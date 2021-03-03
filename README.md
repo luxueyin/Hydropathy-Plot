@@ -49,8 +49,6 @@ Goal: Produce a line plot that illustrates the hydrophobicity properties of a pr
 
 ## Functions Template used for producing a hydropathy plot
 ```
-# CODE
-
 from cs103 import *
 from typing import NamedTuple, List
 import csv
@@ -169,6 +167,12 @@ def fn_for_loaa(loaa: List[AminoAcid]) -> ...:
 
 # Code for producing a hydropathy plot
 ```
+from cs103 import *
+from typing import NamedTuple, List
+import csv
+from enum import Enum
+from matplotlib import pyplot
+
 # Main function
 @typecheck
 def main(filename: str, protein: str) -> None:
@@ -417,7 +421,6 @@ def get_hydro_score(lof: List[float]) -> List[float]:
         score.append(round(curr_score,1))
     return score
 
-####################### THIS IS WHERE IDK HOW TO DO IT T^T
 @typecheck
 def residue(lopi: List[ProteinInfo], protein: str) -> int:
     """
