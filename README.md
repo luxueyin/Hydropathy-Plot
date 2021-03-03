@@ -617,4 +617,6 @@ Use the following command.
 ```
 main('aquaporin.csv', '2B6O')
 ```
+https://user-images.githubusercontent.com/74755460/109886961-c8dd7680-7c35-11eb-9796-8fee7c8103a9.png
+
 Remember to replace aquaporin with the name of your csv and replace 2B60 with the protein ID of the desired protein.
